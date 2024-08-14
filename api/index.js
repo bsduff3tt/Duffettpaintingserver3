@@ -43,7 +43,7 @@ app.post("/", (req, res) => {
     const name = req.body.custName;
     const contact = req.body.custContact;
     const address = req.body.custAddress;
-    updateDatabase(name, contact, address);
+//    updateDatabase(name, contact, address);
   });
 
 app.listen(PORT, () => console.log(`Server started  ${PORT}`));
